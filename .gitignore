@@ -1,0 +1,31 @@
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.backup
+
+# Crash logs
+crash.log
+
+# .terraform directory (Terraform init files and providers)
+.terraform/
+
+# Sensitive variable files
+*.tfvars
+*.tfvars.json
+
+# Override files (local customizations)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Plan files
+*.plan
+
+# IDE/editor settings (optional)
+.vscode/
+.idea/
+.DS_Store
+
+# OS-specific files
+Thumbs.db
+Terraform/
